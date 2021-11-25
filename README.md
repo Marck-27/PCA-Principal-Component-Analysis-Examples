@@ -1,18 +1,9 @@
 # PCA: Principal Component Analysis Examples
 
-Uno de los problemas más grandes a los que nos enfrentamos al analizar datos es la alta dimensión del dataset,
+Uno de los problemas al que generalmente nos enfrentamos al entrenar modelos de Machine Learning, es la alta dimensionalidad de los "features" (ie. una gran cantidad de variables por cada feature). Para resolver este problema debemos ser capaces de reducir la dimensionalidad de los features conservando un alto porcentaje de las características principales, lo cual se puede hacer mediante un análisis PCA.
 
-la cual está determinada por el número de variables que tiene el dataset. 
+El análisis PCA permite "proyectar" los features hacia un espacio de menor dimensión (el espacio de las componentes principales) que maximiza la varianza, en otras palabras, podemos explicar un alto porcentaje de la información original usando "pocas" variables. 
 
-Naturalmente entre más variables se consideren al construir un modelo que explique los datos,
+Un análisis PCA previo al entrenamiento de algún modelo de ML puede ayudar a acelerar los procesos de entrenamiento.
 
-se puede obtener un modelo más preciso, sin ebargo, el costo computacional puede ser muy alto.
-
-El análisis de componentes principales (previo a la construcción de un modelo) nos permite detectar las variables 
-
-de mayor peso (importancia) en un dataset, de tal forma que podamos explicar un alto porcentaje de los datos utilizando 
-
-menos variables (las componentes principales).
-
-En el presente repositorio muestro algunos ejemplos que describen el proceso convencional del análisis PCA
-
+En el presente repositorio muestro algunos ejemplos que describen el proceso convencional del análisis PCA.
